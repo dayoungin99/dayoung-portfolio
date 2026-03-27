@@ -1,0 +1,167 @@
+<!doctype html>
+<!--
+  Portfolio: single-page layout (About Me / Projects / Contact).
+  No JS and no frameworks; navigation uses plain anchor links + CSS.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio of Dayoung In: Data Science, backend, and data engineering." />
+    <title>Dayoung In | Portfolio</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body id="top">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#about" aria-label="Dayoung In home">
+          <!--span class="brand-mark" aria-hidden="true"></span-->
+          <span class="brand-text">Dayoung In | Data / Backend</span>
+        </a>
+
+        <nav class="nav" aria-label="Primary navigation">
+          <a class="nav-link" href="#about">About Me</a>
+          <a class="nav-link" href="#projects">Projects</a>
+          <a class="nav-link" href="#creativeworks">Creative Works</a>
+          <a class="nav-link" href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="section" id="about" aria-label="About Me">
+        <div class="container">
+
+          <div class="about-card">
+            <div class="about-content">
+              <img src="Profile_Photo.jpg" class="about-image">
+              <div class="about-divider" aria-hidden="true"></div>
+              <div class="about-info">
+                <h3 class="about-name">Dayoung In</h3>
+                <p class="about-text">University of California, San Diego</p>
+                <p class="about-text">Data Science student</p>
+                <p class="about-text">Building backend systems with a focus on data and real-world impact</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="projects" aria-label="Projects">
+        <div class="container">
+          <header class="section-head">
+            <h2>Projects</h2>
+          </header>
+
+          <!-- Project cards (links go to separate HTML pages in /projects). -->
+          <div class="cards" role="list" aria-label="Project cards">
+            <article class="card" role="listitem">
+              <h3>Coming Soon</h3>
+              <p class="card-summary">
+                Still Editing
+              </p>
+              <ul class="tag-row" aria-label="Tech stack">
+                <li class="tag">Python</li>
+              </ul>
+              <!--a class="btn btn-primary" href="./projects/backend-data-pipeline.html">View Project</a>-->
+            </article>
+
+            <article class="card" role="listitem">
+              <h3>Coming Soon</h3>
+              <p class="card-summary">
+                Still Editing
+              </p>
+              <ul class="tag-row" aria-label="Tech stack">
+                <li class="tag">Python</li>
+              </ul>
+              <!--a class="btn btn-primary" href="./projects/recommendation-api.html">View Project</a>-->
+            </article>
+
+            <article class="card" role="listitem">
+              <h3>Coming Soon</h3>
+              <p class="card-summary">
+                Still Editing
+              </p>
+              <ul class="tag-row" aria-label="Tech stack">
+                <li class="tag">SQL</li>
+                <li class="tag">Python</li>
+              </ul>
+              <!--a class="btn btn-primary" href="./projects/analytics-dashboard.html">View Project</a>-->
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="creativeworks" aria-label="Creative Works">
+        <div class="container">
+          <header class="section-head">
+            <h2>Creative Works</h2>
+          </header>
+
+          <!-- Project cards (links go to separate HTML pages in /creativeworks). -->
+          <div class="cards" role="list" aria-label="Creative Works cards">
+            <article class="card" role="listitem">
+              <h3>Video Editing</h3>
+              <p class="card-summary">
+                A collection of video editing projects using Adobe Premiere Pro and After Effects.
+              </p>
+              <ul class="tag-row" aria-label="Tech stack">
+                <li class="tag">Adobe Premiere Pro</li>
+                <li class="tag">After Effects</li>
+              </ul>
+              <a class="btn btn-primary" href="./creativeworks/video-editing.html">Explore</a>
+            </article>
+
+            <article class="card" role="listitem">
+              <h3>3D Modeling</h3>
+              <p class="card-summary">
+                A collection of 3D modeling projects using Blender, 3D Max, and SolidWorks.
+              </p>
+              <ul class="tag-row" aria-label="Tech stack">
+                <li class="tag">Blender</li>
+                <li class="tag">3D Max</li>
+                <li class="tag">SolidWorks</li>
+              </ul>
+              <a class="btn btn-primary" href="./creativeworks/3d-modeling.html">Explore</a>
+            </article>
+
+            <article class="card" role="listitem">
+              <h3>Making Music</h3>
+              <p class="card-summary">
+                A collection of music making projects using Logic Pro X.
+              </p>
+              <ul class="tag-row" aria-label="Tech stack">
+                <li class="tag">Logic Pro X</li>
+              </ul>
+              <a class="btn btn-primary" href="./creativeworks/music-making.html">Explore</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact" aria-label="Contact">
+        <div class="container">
+          <header class="section-head">
+            <h2>Contact</h2>
+          </header>
+
+          <div class="contact-links">
+            <a class="btn btn-primary" href="https://github.com/dayoungin99" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="btn btn-primary" href="https://www.linkedin.com/in/dayoungin" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a class="btn btn-secondary" href="mailto:dain@ucsd.edu">Email</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" aria-label="Footer">
+      <div class="container">
+        <p class="muted">© Dayoung In. Built with plain HTML + CSS.</p>
+      </div>
+    </footer>
+  </body>
+</html>
+
