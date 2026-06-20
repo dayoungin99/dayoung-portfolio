@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Projects | Dayoung In</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="./index.html">
+          <span class="brand-text">Dayoung In</span>
+        </a>
+
+        <nav class="nav" aria-label="Primary navigation">
+          <a class="nav-link" href="./index.html">Home</a>
+          <a class="nav-link active" href="./projects.html">Projects</a>
+          <a class="nav-link" href="./resume.html">Resume</a>
+          <a class="nav-link" href="./creativeworks.html">Creative Works</a>
+          <a class="nav-link" href="./contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section page-hero">
+        <div class="container">
+          <p class="page-kicker">Data Science & Machine Learning</p>
+          <h1>Projects</h1>
+          <p class="page-description">
+            Selected projects focused on data analytics, machine learning, predictive modeling, and real-world problem solving.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="filter-row">
+            <button class="filter-btn active" data-filter="All">All</button>
+            <button class="filter-btn" data-filter="Analytics">Analytics</button>
+            <button class="filter-btn" data-filter="ML">ML</button>
+          </div>
+
+          <div class="cards" id="projectCards" role="list" aria-label="Project cards"></div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
