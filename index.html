@@ -7,162 +7,57 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Portfolio of Dayoung In: Data Science, backend, and data engineering." />
+    <meta name="description" content="Portfolio of Dayoung In: Data Science, Data Analyst, Machine Learning." />
     <title>Dayoung In | Portfolio</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
 
-  <body id="top">
+  <body id="top" class="home-page">
     <a class="skip-link" href="#main">Skip to content</a>
-
-    <header class="site-header">
-      <div class="container header-inner">
-        <a class="brand" href="#about" aria-label="Dayoung In home">
-          <!--span class="brand-mark" aria-hidden="true"></span-->
-          <span class="brand-text">Dayoung In | Data / Backend</span>
-        </a>
-
-        <nav class="nav" aria-label="Primary navigation">
-          <a class="nav-link" href="#about">About Me</a>
-          <a class="nav-link" href="#projects">Projects</a>
-          <a class="nav-link" href="#creativeworks">Creative Works</a>
-          <a class="nav-link" href="#contact">Contact</a>
-        </nav>
-      </div>
-    </header>
-
     <main id="main">
-      <section class="section" id="about" aria-label="About Me">
+      <section class="home-section" id="about" aria-label="Home">
         <div class="container">
 
+          <!-- <p class="home-greeting">Hi 👋, I'm</p> -->
           <div class="about-card">
             <div class="about-content">
               <img src="profile-photo.jpg" class="about-image">
               <div class="about-divider" aria-hidden="true"></div>
               <div class="about-info">
                 <h3 class="about-name">Dayoung In</h3>
-                <p class="about-text">University of California, San Diego</p>
-                <p class="about-text">Data Science student</p>
-                <p class="about-text">Building backend systems with a focus on data and real-world impact</p>
+                <p class="about-text">Data Science @ UC San Diego</p>
+                <p class="about-text">Data Analytics, Machine Learning</p>
+                <p class="about-text">Building <strong>data-driven</strong> solutions through <strong>analytics</strong>, <strong>machine learning</strong>, and <strong>real-world</strong> projects.</p>
               </div>
             </div>
           </div>
-        </div>
-      </section>
 
-      <section class="section" id="projects" aria-label="Projects">
-        <div class="container">
-          <header class="section-head">
-            <h2>Projects</h2>
-          </header>
+          <div class="home-actions">
+            <a href="./projects.html" class="home-action-card">
+              <span>Projects</span>
+              <small>Data Science <br> & ML Projects</small>
+            </a>
 
-          <!-- Project cards (links go to separate HTML pages in /projects). -->
-          <div class="cards" role="list" aria-label="Project cards">
-            <article class="card" role="listitem">
-              <h3>Food Nutrition API</h3>
-              <p class="card-summary">
-                Built a backend API using Flask that analyzes food data and returns calorie-based health insights and recommendations.
-              </p>
-              <ul class="tag-row" aria-label="Tech stack">
-                <li class="tag">Python</li>
-                <li class="tag">Flask</li>
-              </ul>
-              <a class="btn btn-primary" href="./projects/food-nutrition-api.html">View Project</a>
-            </article>
+            <a href="./resume.html" class="home-action-card">
+              <span>Resume</span>
+              <small>Experience & Research</small>
+            </a>
 
-            <article class="card" role="listitem">
-              <h3>Coming Soon</h3>
-              <p class="card-summary">
-                Still Editing
-              </p>
-              <ul class="tag-row" aria-label="Tech stack">
-                <li class="tag">Python</li>
-              </ul>
-              <!--a class="btn btn-primary" href="./projects/recommendation-api.html">View Project</a>-->
-            </article>
+            <a href="./creativeworks.html" class="home-action-card">
+              <span>Creative Works</span>
+              <small>Video, 3D, music</small>
+            </a>
 
-            <article class="card" role="listitem">
-              <h3>Coming Soon</h3>
-              <p class="card-summary">
-                Still Editing
-              </p>
-              <ul class="tag-row" aria-label="Tech stack">
-                <li class="tag">SQL</li>
-                <li class="tag">Python</li>
-              </ul>
-              <!--a class="btn btn-primary" href="./projects/analytics-dashboard.html">View Project</a>-->
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="creativeworks" aria-label="Creative Works">
-        <div class="container">
-          <header class="section-head">
-            <h2>Creative Works</h2>
-          </header>
-
-          <!-- Project cards (links go to separate HTML pages in /creativeworks). -->
-          <div class="cards" role="list" aria-label="Creative Works cards">
-            <article class="card" role="listitem">
-              <h3>Video Editing</h3>
-              <p class="card-summary">
-                A collection of video editing projects using Adobe Premiere Pro and After Effects.
-              </p>
-              <ul class="tag-row" aria-label="Tech stack">
-                <li class="tag">Adobe Premiere Pro</li>
-                <li class="tag">After Effects</li>
-              </ul>
-              <a class="btn btn-primary" href="./creative-works/video-editing.html">Explore</a>
-            </article>
-
-            <article class="card" role="listitem">
-              <h3>3D Modeling</h3>
-              <p class="card-summary">
-                A collection of 3D modeling projects using Blender, 3D Max, and SolidWorks.
-              </p>
-              <ul class="tag-row" aria-label="Tech stack">
-                <li class="tag">Blender</li>
-                <li class="tag">3D Max</li>
-                <li class="tag">SolidWorks</li>
-              </ul>
-              <a class="btn btn-primary" href="./creative-works/3d-modeling.html">Explore</a>
-            </article>
-
-            <article class="card" role="listitem">
-              <h3>Making Music</h3>
-              <p class="card-summary">
-                A collection of music making projects using Logic Pro X.
-              </p>
-              <ul class="tag-row" aria-label="Tech stack">
-                <li class="tag">Logic Pro X</li>
-              </ul>
-              <a class="btn btn-primary" href="./creative-works/music-making.html">Explore</a>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="contact" aria-label="Contact">
-        <div class="container">
-          <header class="section-head">
-            <h2>Contact</h2>
-          </header>
-
-          <div class="contact-links">
-            <a class="btn btn-primary" href="https://github.com/dayoungin99" target="_blank" rel="noreferrer">GitHub</a>
-            <a class="btn btn-primary" href="https://www.linkedin.com/in/dayoungin" target="_blank" rel="noreferrer">LinkedIn</a>
-            <a class="btn btn-secondary" href="mailto:dain@ucsd.edu">Email</a>
+            <a href="./contact.html" class="home-action-card">
+              <span>Contact</span>
+              <small>Let’s connect</small>
+            </a>
           </div>
         </div>
       </section>
     </main>
 
-    <footer class="site-footer" aria-label="Footer">
-      <div class="container">
-        <p class="muted">© Dayoung In. Built with plain HTML + CSS.</p>
-      </div>
-    </footer>
+    <script src="./script.js"></script>
   </body>
 </html>
 
