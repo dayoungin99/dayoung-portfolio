@@ -1,8 +1,6 @@
 # Portfolio
 A personal portfolio website showcasing my projects, skills, and creative work built with HTML, CSS, and JavaScript.
 
-[Live Website](https://dayoungin99.github.io/portfolio/)
-
 ## Features
 
 - Home
@@ -19,7 +17,7 @@ A personal portfolio website showcasing my projects, skills, and creative work b
 
 ## Live Site
 
-https://your-github-pages-link
+https://dayoungin99.github.io/dayoung-portfolio/
 
 ## Author
 
