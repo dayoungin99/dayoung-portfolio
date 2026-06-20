@@ -1,26 +1,26 @@
-[
-  {
-    "title": "Video Editing",
-    "category": "Video",
-    "description": "A collection of video editing projects using Adobe Premiere Pro and After Effects.",
-    "tags": ["Adobe Premiere Pro", "After Effects"],
-    "link": "./creative-works/video-editing.html",
-    "status": "Explore"
-  },
-  {
-    "title": "3D Modeling",
-    "category": "3D",
-    "description": "A collection of 3D modeling projects using Blender, 3D Max, and SolidWorks.",
-    "tags": ["Blender", "3D Max", "SolidWorks"],
-    "link": "./creative-works/3d-modeling.html",
-    "status": "Explore"
-  },
-  {
-    "title": "Making Music",
-    "category": "Music",
-    "description": "A collection of music making projects using Logic Pro X.",
-    "tags": ["Logic Pro X"],
-    "link": "./creative-works/music-making.html",
-    "status": "Explore"
-  }
-]
+// [
+//   {
+//     "title": "Video Editing",
+//     "category": "Video",
+//     "description": "A collection of video editing projects using Adobe Premiere Pro and After Effects.",
+//     "tags": ["Adobe Premiere Pro", "After Effects"],
+//     "link": "./creative-works/video-editing.html",
+//     "status": "Explore"
+//   },
+//   {
+//     "title": "3D Modeling",
+//     "category": "3D",
+//     "description": "A collection of 3D modeling projects using Blender, 3D Max, and SolidWorks.",
+//     "tags": ["Blender", "3D Max", "SolidWorks"],
+//     "link": "./creative-works/3d-modeling.html",
+//     "status": "Explore"
+//   },
+//   {
+//     "title": "Making Music",
+//     "category": "Music",
+//     "description": "A collection of music making projects using Logic Pro X.",
+//     "tags": ["Logic Pro X"],
+//     "link": "./creative-works/music-making.html",
+//     "status": "Explore"
+//   }
+// ]
