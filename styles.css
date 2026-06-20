@@ -484,15 +484,6 @@ h1 {
   transform: translateY(-3px);
 }
 
-.resume-nav-btn {
-  background: var(--accent);
-  color: white;
-  padding: 8px 14px;
-  border-radius: 999px;
-  text-decoration: none;
-  font-weight: 800;
-}
-
 .resume-hero-actions {
   margin-top: 28px;
   display: flex;
