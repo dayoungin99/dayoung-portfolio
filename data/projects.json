@@ -1,4 +1,12 @@
-// [
+[
+  {
+    "title": "The Vanishing Arctic",
+    "category": "Data Analytics",
+    "description": "Created a scrollytelling data visualization exploring Arctic sea ice decline and its impact on polar bear habitats.",
+    "tags": ["JavaScript", "D3.js", "Data Visualization"],
+    "link": "./projects/the-vanishing-arctic.html",
+    "date": "May 2026 - June 2026"
+  }
 //   {
 //     "title": "Customer Churn Prediction",
 //     "category": "ML",
@@ -31,4 +39,4 @@
 //     "link": "./projects/food-nutrition-api.html",
 //     "date": "June 2026 - August 2026"
 //   }
-// ]
+]
