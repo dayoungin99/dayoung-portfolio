@@ -6,37 +6,5 @@
     "tags": ["D3.js", "Data Visualization", "Climate Data"],
     "link": "./projects/the-vanishing-arctic.html",
     "date": "May 2026 - June 2026"
-  },
-  {
-    "title": "Customer Churn Prediction",
-    "category": "ML",
-    "description": "Predicted telecom customer churn using machine learning and feature engineering techniques.",
-    "tags": ["Python", "Pandas", "Scikit-learn", "Classification"],
-    "link": "./projects/food-nutrition-api.html",
-    "date": "June 2026"
-  },
-  {
-    "title": "SQL Customer Analytics",
-    "category": "Analytics",
-    "description": "Analyzed customer retention, churn, and revenue trends using SQL-based business analytics.",
-    "tags": ["SQL", "Data Analysis", "Visualization"],
-    "link": "./projects/food-nutrition-api.html",
-    "date": "July 2026"
-  },
-  {
-    "title": "Motion Estimation Research",
-    "category": "",
-    "description": "Research project exploring motion estimation techniques using deep learning and reinforcement learning.",
-    "tags": ["CNN", "Reinforcement Learning", "Computer Vision"],
-    "link": "./projects/food-nutrition-api.html",
-    "date": "August 2022 - December 2022"
-  },
-  {
-    "title": "California Housing Price Prediction",
-    "category": "ML",
-    "description": "...",
-    "tags": ["..."],
-    "link": "./projects/food-nutrition-api.html",
-    "date": "June 2026 - August 2026"
   }
 ]
