@@ -24,6 +24,8 @@ function renderProjects(items) {
 
     card.innerHTML = `
       <!-- <p class="card-status">${project.status}</p> -->
+      ${project.image ? `<img class="card-image" src="${project.image}" alt="${project.title} preview">` : ""}
+      
       <p class="card-date">${project.date}</p>
       <h3>${project.title}</h3>
       <p class="card-summary">${project.description}</p>
