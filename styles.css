@@ -594,16 +594,45 @@ h1 {
   border: 1px solid var(--border);
 }
 
-.detail-card {
-  margin: 0 auto;
-  padding: 24px;
+.detail-title {
+  font-size: clamp(40px, 4vw, 56px);
+  margin-bottom: 18px;
 }
 
-.detail-card .btn-secondary {
-  margin-bottom: 24px;
+.section-detail {
+  padding: 36px 0;
+}
+
+.detail-card {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 18px;
+}
+
+.detail-card > .btn-secondary {
+  margin-bottom: 12px;
+}
+
+.project-hero-image {
+  width: 100%;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+  display: block;
+  border-radius: 18px;
+  margin: 12px 0 14px;
+  border: 1px solid var(--border);
 }
 
 .detail-title {
   font-size: clamp(40px, 4vw, 56px);
-  margin-bottom: 18px;
+  margin: 0 0 14px;
+}
+
+.card-links {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 28px;
+  margin-bottom: 0;
 }
