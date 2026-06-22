@@ -582,3 +582,21 @@ h1 {
   text-align: left;
   color: var(--text);
 } */
+
+.project-hero-image {
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  border-radius: 18px;
+  margin: 24px 0 20px;
+  border: 1px solid var(--border);
+}
+
+.detail-card .btn-secondary {
+  margin-bottom: 24px;
+}
+
+.detail-title {
+  font-size: clamp(40px, 4vw, 56px);
+  margin-bottom: 18px;
+}
