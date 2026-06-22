@@ -594,9 +594,14 @@ h1 {
   border: 1px solid var(--border);
 }
 
-.detail-card .btn-secondary {
+.detail-card {
+  max-width: 980px;
   margin: 0 auto;
   padding: 24px;
+}
+
+.detail-card .btn-secondary {
+  margin-bottom: 24px;
 }
 
 .detail-title {
