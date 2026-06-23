@@ -120,14 +120,14 @@ if (creativeCards) {
 const mainProjectImage = document.querySelector("#mainProjectImage");
 const galleryThumbs = document.querySelectorAll(".gallery-thumb");
 
-galleryThumbs.forEach(thumb => {
-  thumb.addEventListener("click", () => {
-    const thumbImage = thumb.querySelector("img");
+if (mainProjectImage && galleryThumbs.length > 0) {
+  galleryThumbs.forEach(thumb => {
+    thumb.addEventListener("click", () => {
+      mainProjectImage.src = thumb.dataset.image;
+      mainProjectImage.alt = thumb.dataset.alt;
 
-    mainProjectImage.src = thumbImage.src;
-    mainProjectImage.alt = thumbImage.alt;
-
-    galleryThumbs.forEach(item => item.classList.remove("active"));
-    thumb.classList.add("active");
+      galleryThumbs.forEach(item => item.classList.remove("active"));
+      thumb.classList.add("active");
+    });
   });
-});
+}
