@@ -583,22 +583,6 @@ h1 {
   color: var(--text);
 } */
 
-.project-hero-image {
-  width: 100%;
-  height: auto;
-  max-height: none;
-  object-fit: contain;
-  display: block;
-  border-radius: 18px;
-  margin: 24px 0 20px;
-  border: 1px solid var(--border);
-}
-
-.detail-title {
-  font-size: clamp(40px, 4vw, 56px);
-  margin-bottom: 18px;
-}
-
 .section-detail {
   padding: 36px 0;
 }
