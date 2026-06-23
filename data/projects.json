@@ -5,7 +5,7 @@
     "description": "Developed an interactive scrollytelling visualization exploring Arctic sea ice decline and climate change impacts on polar bear habitats.",
     "tags": ["D3.js", "Data Visualization", "Climate Data"],
     "link": "./projects/the-vanishing-arctic.html",
-    "image": "./images/the-vanishing-arctic.png",
+    "image": "./images/the-vanishing-arctic/the-vanishing-arctic.png",
     "date": "May 2026 - June 2026"
   }
 ]
