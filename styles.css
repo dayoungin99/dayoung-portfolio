@@ -702,10 +702,33 @@ h1 {
 
 .project-info-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 40px;
+  grid-template-columns: 1.6fr 1fr;
+  gap: 60px;
   margin-top: 32px;
   text-align: left;
+}
+
+.project-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.project-sidebar h3 {
+  margin: 0 0 4px;
+}
+
+.project-sidebar .tag-row {
+  margin-bottom: 18px;
+}
+
+.project-sidebar p {
+  margin: 0 0 18px;
+  color: var(--muted);
+}
+
+.project-info-grid > div > h3:not(:first-child) {
+  margin-top: 42px;
 }
 
 .project-info-grid h3 {
@@ -714,6 +737,7 @@ h1 {
 
 .project-info-grid p {
   color: var(--muted);
+  max-width: 620px;
 }
 
 .top-links {
@@ -733,3 +757,4 @@ h1 {
     grid-template-columns: 1fr;
   }
 }
+
