@@ -699,3 +699,37 @@ h1 {
     min-height: 90px;
   }
 }
+
+.project-info-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+  margin-top: 32px;
+  text-align: left;
+}
+
+.project-info-grid h3 {
+  margin-bottom: 12px;
+}
+
+.project-info-grid p {
+  color: var(--muted);
+}
+
+.top-links {
+  margin-bottom: 36px;
+}
+
+.bullets {
+  padding-left: 20px;
+}
+
+.bullets li {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 900px) {
+  .project-info-grid {
+    grid-template-columns: 1fr;
+  }
+}
