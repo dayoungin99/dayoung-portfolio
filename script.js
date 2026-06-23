@@ -116,3 +116,18 @@ if (creativeCards) {
       renderCreativeWorks(data);
     });
 }
+
+const mainProjectImage = document.querySelector("#mainProjectImage");
+const galleryThumbs = document.querySelectorAll(".gallery-thumb");
+
+galleryThumbs.forEach(thumb => {
+  thumb.addEventListener("click", () => {
+    const thumbImage = thumb.querySelector("img");
+
+    mainProjectImage.src = thumbImage.src;
+    mainProjectImage.alt = thumbImage.alt;
+
+    galleryThumbs.forEach(item => item.classList.remove("active"));
+    thumb.classList.add("active");
+  });
+});
