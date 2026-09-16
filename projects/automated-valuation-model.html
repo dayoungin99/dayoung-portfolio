@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta
+      name="description"
+      content="Automated Valuation Model project detail: machine learning model for predicting California single-family home closing prices using MLS data."
+    />
+
+    <title>Automated Valuation Model | Dayoung In</title>
+
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="../index.html" aria-label="Dayoung In home">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-text">Dayoung In</span>
+        </a>
+
+        <nav class="nav" aria-label="Project navigation">
+          <a class="nav-link" href="../index.html">Home</a>
+          <a class="nav-link active" href="../projects.html">Projects</a>
+          <a class="nav-link" href="../resume.html">Resume</a>
+          <a class="nav-link" href="../creativeworks.html">Creative Works</a>
+          <a class="nav-link" href="../contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section
+        class="section section-detail"
+        aria-label="Automated Valuation Model detail"
+      >
+        <div class="container">
+          <article class="card detail-card">
+            <a class="btn btn-secondary" href="../projects.html">
+              Back to Projects
+            </a>
+
+            <div class="project-gallery">
+              <img
+                id="mainProjectImage"
+                class="project-gallery-main"
+                src="../images/avm/cover.png"
+                alt="Automated Valuation Model"
+              />
+
+              <div class="project-gallery-thumbs">
+                <button
+                  type="button"
+                  class="gallery-thumb active"
+                  data-image="../images/avm/preprocessing.png"
+                  data-alt="Automated Valuation Model preprocessing"
+                >
+                  <img
+                    src="../images/avm/preprocessing.png"
+                    alt="model preprocessing"
+                  />
+                </button>
+
+                <button
+                  type="button"
+                  class="gallery-thumb"
+                  data-image="../images/avm/workflow.png"
+                  data-alt="Automated Valuation Model workflow"
+                >
+                  <img
+                    src="../images/avm/workflow.png"
+                    alt="Machine learning workflow"
+                  />
+                </button>
+
+                <button
+                  type="button"
+                  class="gallery-thumb"
+                  data-image="../images/avm/results.png"
+                  data-alt="Automated Valuation Model workflow"
+                >
+                  <img
+                    src="../images/avm/results.png"
+                    alt="Data preprocessing summary"
+                  />
+                </button>
+
+                <button
+                  type="button"
+                  class="gallery-thumb"
+                  data-image="../images/avm/final-model.png"
+                  data-alt="Automated Valuation Model final model"
+                >
+                  <img
+                    src="../images/avm/final-model.png"
+                    alt="Final Model & Key Insights"
+                  />
+                </button>
+              </div>
+            </div>
+
+            <h1 class="detail-title">
+              Automated Valuation Model
+            </h1>
+
+            <p class="lead">
+              Built an end-to-end machine learning pipeline to predict California
+              single-family home closing prices using 186K+ MLS transaction records.
+            </p>
+
+            <div class="card-links top-links">
+                <a
+                    class="btn btn-secondary"
+                    href="https://github.com/dayoungin-ucsd/IDX-Exchange-DS-Intern-Summer-2026"
+                    target="_blank"
+                >
+                    GitHub
+                </a>
+                </div>
+
+            <div class="project-info-grid">
+              <div>
+                <h3>About Project</h3>
+                <p>
+                  Developed an Automated Valuation Model (AVM) to estimate closing prices
+                  for California single-family homes using MLS transaction data. The project
+                  focused on building and evaluating machine learning models using
+                  chronological data splits, feature engineering, and hyperparameter tuning.
+                </p>
+
+                <h3>Key Contributions</h3>
+                <ul class="bullets">
+                    <li>
+                        Prepared 186K+ single-family home records from 369K+ raw MLS
+                        transactions through filtering, cleaning, and preprocessing.
+                    </li>
+
+                    <li>
+                        Engineered property and geospatial features, including bed-to-bath
+                        ratio, property age, and school district assignments using GeoPandas.
+                    </li>
+
+                    <li>
+                        Compared and tuned Linear Regression, Random Forest, Extra Trees,
+                        and HistGradientBoosting using chronological train-validation-test
+                        splits.
+                    </li>
+
+                    <li>
+                        Improved test R² from 0.801 to 0.822 and reduced RMSE from
+                        approximately $685K to $649K through feature selection and
+                        hyperparameter tuning.
+                    </li>
+                </ul>
+              </div>
+
+              <aside class="project-sidebar">
+                <h3>Tech Stack</h3>
+                <ul class="tag-row">
+                  <li class="tag">Python</li>
+                  <li class="tag">pandas</li>
+                  <li class="tag">scikit-learn</li>
+                  <li class="tag">GeoPandas</li>
+                </ul>
+
+                <h3>Categories</h3>
+                <ul class="tag-row">
+                  <li class="tag">Machine Learning</li>
+                  <li class="tag">Regression</li>
+                  <li class="tag">Real Estate Analytics</li>
+                </ul>
+
+                <h3>Role</h3>
+                <p>
+                  Data Science Intern · Team Leader
+                </p>
+
+                <h3>Organization</h3>
+                <p>
+                  IDX Exchange
+                </p>
+
+                <h3>Timeline</h3>
+                <p>
+                  June 2026 - September 2026
+                </p>
+              </aside>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <script src="../script.js"></script>
+  </body>
+</html>

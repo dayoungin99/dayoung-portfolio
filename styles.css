@@ -743,3 +743,6 @@ h1 {
   }
 }
 
+.card-summary {
+  min-height: 100px;
+}

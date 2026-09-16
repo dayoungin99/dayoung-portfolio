@@ -7,5 +7,14 @@
     "link": "./projects/the-vanishing-arctic.html",
     "image": "./images/the-vanishing-arctic/the-vanishing-arctic.png",
     "date": "May 2026 - June 2026"
+  },
+  {
+    "title": "Automated Valuation Model",
+    "category": "ML",
+    "description": "Built a machine learning model to predict California single-family home closing prices using MLS data.",
+    "tags": ["Python", "scikit-learn", "GeoPandas"],
+    "link": "./projects/automated-valuation-model.html",
+    "image": "./images/avm/cover.png",
+    "date": "June 2026 - September 2026"
   }
 ]
